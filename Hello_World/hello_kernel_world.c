@@ -3,13 +3,13 @@
 
 int hello_world_init(void)
 {
-    printk(KERN_ALERT "Hello Kernel World...!!!");
+    printk(KERN_ERR "in %s Hello Kernel World...!!!", __FUNCTION__);
     return 0;
 }
 
 void hello_world_exit(void)
 {
-    printk(KERN_ALERT "Hello Kernel World...!!!");
+    printk(KERN_ALERT "in %s Hello Kernel World...!!!", __FUNCTION__);
 }
 
 module_init(hello_world_init);
