@@ -7,3 +7,5 @@ void only_exit_module(void)
 }
 
 module_exit(only_exit_module);
+
+MODULE_LICENSE("GPL");

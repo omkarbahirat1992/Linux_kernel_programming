@@ -8,3 +8,5 @@ int only_init_module(void)
 }
 
 module_init(only_init_module);
+
+MODULE_LICENSE("GPL");

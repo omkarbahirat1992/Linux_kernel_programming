@@ -14,3 +14,5 @@ void hello_world_exit(void)
 
 module_init(hello_world_init);
 module_exit(hello_world_exit);
+
+MODULE_LICENSE("GPL");
